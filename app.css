@@ -1,0 +1,129 @@
+:root{
+    --paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+    --redhat : 'Red Hat Display', sans-serif;
+
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--redhat);
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: var(--paleblue);
+}
+
+main{
+    display: block;
+    margin: 80px auto;
+    width: 350px;
+    max-width: 350px;
+    height: 560px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+.mainimg{
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+
+.order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.orderinfo{
+    margin: 20px;
+    text-align: center;
+    color: var(--Desaturatedblue);
+    font-size: 0.9rem;
+}
+
+
+
+.price{
+    display: flex;
+    align-items: center;
+    background-color: var(--Verypaleblue);
+    margin: 25px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+ul li{
+    list-style-type:none;
+    transform: translate(-25px,-3px);
+}
+
+li:nth-child(1){
+    font-weight: 700;
+}
+li:nth-child(2){
+    color: var(--Desaturatedblue);
+}
+
+.music img{
+    width: 40px;
+    margin-left: 25px;
+}
+
+a{
+    font-weight: 700;
+    font-size: 0.8rem;
+    transform: translate(50px);    
+}
+
+a:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.payment{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color:var(--Brightblue);
+    color: white;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 5px 5px 10px 5px rgba(206, 195, 245, 0.7);
+}
+
+.payment:hover{
+    cursor:pointer;
+    opacity: 0.7;
+}
+
+.cancel{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin: 20px;
+    padding: 10px;
+    background-color:white;
+    color: var(--Desaturatedblue);
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.cancel:hover{
+    cursor:pointer;
+    color: rgb(24, 38, 80); ;
+}
